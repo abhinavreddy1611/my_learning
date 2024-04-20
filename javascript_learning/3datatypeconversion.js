@@ -5,6 +5,9 @@ console.log(typeof NaN)
 // true=1 ; false=0; WHEN CONVERTED TO NUMBER
 // if you convert Number "23as "-> NaN
 console.log(Number("23 abc"))
-let isLoggedIn=1;
-let boolenisLoggedIn=Boolean(isLoggedIn);
+let isLoggedIn=-1;
+let booleanisLoggedIn=Boolean(isLoggedIn);
 console.log(booleanisLoggedIn)
+// 0,NaN-> false 
+// 1->true
+//-1->true
