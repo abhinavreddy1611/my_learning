@@ -11,3 +11,17 @@ console.log(booleanisLoggedIn)
 // 0,NaN-> false 
 // 1->true
 //-1->true
+
+//OPERATIONS
+let value=4;
+let negvalue=-value; // value would be 4
+//console.log(negvalue);
+console.log(null>0);
+console.log(null==0);
+console.log(null<0);
+console.log(null<=0);
+// < > there comparison operators convert the null to 0
+// == does not so gives false
+ 
+
+

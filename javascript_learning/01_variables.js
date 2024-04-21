@@ -73,3 +73,21 @@ for(let i=0;i<4;i++){
 // var is hoisted to top of the enclosing function or to the top of global encolser
 
 
+/*
+For Non-Primitive Data Types (Objects and Arrays):
+While you cannot reassign a constant to a different object or array, you can still modify the properties or elements of the object or array.
+javascript
+Copy code
+const obj = { name: "Alice" };
+obj.name = "Bob"; // This is allowed, as it modifies the property of the object, not the variable itself
+javascript
+Copy code
+const arr = [1, 2, 3];
+arr.push(4); // This is allowed, as it modifies the array
+So, in summary, while you cannot reassign a variable declared with const to a different value (for both primitive and non-primitive data types), you can still modify the properties or elements of non-primitive types if they are mutable.
+
+
+
+
+
+*/
