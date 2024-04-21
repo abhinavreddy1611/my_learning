@@ -30,9 +30,11 @@ let an=function (){
     console.log("Hello World");
     
 }
-console.log(typeof an);
+console.log(typeof an);// function but termed as object function
 console.log(typeof myObj);
 console.log(typeof heros);
+// null is a object;
+
 
  
 
