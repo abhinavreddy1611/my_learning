@@ -35,7 +35,16 @@ console.log(typeof myObj);
 console.log(typeof heros);
 // null is a object;
 
-
+let user={
+    email:"user@gmail.com",
+    upi_id:"lol"
+}
+let userTwo=user;
+userTwo.email="lol";
+console.log(user);
  
+// even though you make changes on user2 these are reflected even on user 1
+
+
 
 // Array,Object,Functions 
